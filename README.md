@@ -10,8 +10,11 @@ This project demonstrates how to create a VPC that can use for servers in a prod
 Project Highlights:
 
 ✴ The VPC has public subnets and private subnets in two availability zones
+
 ✴ Each public subnet contains a NAT gateway and load balancer
+
 ✴ The servers run in the private subnets are launched by using Auto Scaling group and receive traffic from the load balancer
+
 ✴ The servers can connect to the internet by using the NAT gateway
 
 
